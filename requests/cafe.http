@@ -1,0 +1,12 @@
+### 
+POST http://localhost:8080/cafes
+Content-Type: application/json
+
+{
+  "name": "Cafe2",
+  "city": "인천",
+  "gu": "서구"  
+}
+
+###
+GET http://localhost:8080/cafes?city=인천&gu=서구
